@@ -63,7 +63,7 @@ const IntroDescription = styled.div`
   }
 
   a {
-    color: #4A90E2;
+    color: #f1404b;
     line-height: 1.5;
     font-size: 1.1rem;
     text-decoration: none;

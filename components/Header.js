@@ -1,18 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
-import { withRouter } from 'next/router';
+import { withRouter } from 'next/router'
+import Meta from './Meta'
 
 function Header(props) {
   return (
-    <HeaderWrapper>
-      <div className="header">
-        <HeaderNav>
-          <a href="/" className={props.router.pathname == '/' ? 'active' : ''}>Home</a>
-          <a href="https://drive.google.com/file/d/1_FAXefesDv2bfUWE9-eLQR9I6ludiZLF/view?usp=sharing" target="_blank" rel="no-follow">Resume</a>
-          <a href="mailto:mjpatt381@gmail.com">Contact</a>
-        </HeaderNav>
-      </div>
-    </HeaderWrapper>
+    <>
+      <Meta />
+      <HeaderWrapper>
+        <div className="header">
+          <HeaderNav>
+            <a href="/" className={props.router.pathname == '/' ? 'active' : ''}>Home</a>
+            <a href="https://drive.google.com/file/d/1_FAXefesDv2bfUWE9-eLQR9I6ludiZLF/view?usp=sharing" target="_blank" rel="no-follow">Resume</a>
+            <a href="mailto:mjpatt381@gmail.com">Contact</a>
+          </HeaderNav>
+        </div>
+      </HeaderWrapper>
+    </>
   )
 }
 
@@ -59,12 +63,12 @@ const HeaderNav = styled.nav`
     transition: all 0.2s ease-out 0s;
 
     &.active {
-      color: #4A90E2;
+      color: #f1404b;
       opacity: 1;
     }
 
     &:hover {
-      color: #4A90E2;
+      color: #f1404b;
       opacity: 1;
       transition: all 0.2s ease-out 0s;
     }
