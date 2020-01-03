@@ -7,10 +7,9 @@ export default function Homepage() {
       <IntroDescription>
         <h1>Michael Patterson</h1>
         <a href="https://github.com/Mikepatt38" target="_blank" rel="no-follow"><img src="/static/github.svg" alt="Github Logo Icon" /></a><a href="https://www.linkedin.com/in/michael-j-patterson/" target="_blank" rel="no-follow"><img src="/static/linkedin.svg" alt="LinkedIn Logo Icon" /></a>
-        <p>Hey <span role="img" aria-label="Wave Emoji">👋</span>, I'm a software developer that primarily focuses on front end development using javascript and cool libraries like React with over 3 years experience.</p>
-        <p>I'm currently looking <span role="img" aria-label="Eyes Looking Emoji"> 👀</span>to join a team as a software developer working with javascript, if you think you know a position that would be a good fit, <a href="mailto:mjpatt381@gmail.com">send me a quick message.</a></p>
+        <p>Hey <span role="img" aria-label="Wave Emoji">👋</span>, I'm Michael Patterson, welcome to the site!</p>
+        <p>I'm currently a software engineer at Post Acute Analytics, building cool stuff with ReactJS, NodeJS, GraphQL, PostgresSQL, and other fun technologies.</p>
         <p>I'm a disciple of Jesus Christ, lover of the Dallas Cowboys, Apple fan boy, and fitness junkie.</p>
-        <p>Recently I've built <a href="https://prep2wrapjobs.com" target="_blank" rel="no_follow">Prep2Wrap</a>, a SaaS product for a startup in Los Angeles, and multiple react websites.</p>
       </IntroDescription>
     </Intro>
   )
